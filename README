@@ -120,7 +120,12 @@ Utilisez un client GraphQL (Altair, Postman, etc.) :
 - URL : `http://localhost:4000/graphql`
 - Authentification : Ajoutez un header `Authorization: Bearer <token>`
 
+---
+## 🧰 Tests manuels cypress 
 
+Ulancez la commande 
+- cmd || terminal: `npx cypress open`
+- Executez dans l'ordre les fichiers Home, professor et student.                        
 ---
 
 ## 🚀 Lancement rapide (dev)
@@ -132,6 +137,8 @@ npm start (pour chaque service)
 cd frontend/schooinc-frontend
 npm run dev
 ```
+
+
 
 Frontend dispo ici : [http://localhost:5173](http://localhost:5173)
 Gateway GraphQL ici : [http://localhost:4000/graphql](http://localhost:4000/graphql)
